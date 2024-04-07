@@ -6,6 +6,8 @@ interface Publication {
     name: string;
 }
 
+
+
 export default function PublicationCard({ id, title, body, name }: Publication) {
 
     return (

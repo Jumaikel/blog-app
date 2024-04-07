@@ -1,5 +1,6 @@
 "use client"
 import { Navbar, Button } from 'flowbite-react';
+import { IoPerson } from "react-icons/io5";
 import { useRouter } from 'next/navigation'
 import { useState } from 'react';
 export default function UserNavBar() {
