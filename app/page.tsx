@@ -1,3 +1,6 @@
+import PublicationCard from "./components/PublicationCard";
+import Footer from "./components/Footer";
+
 async function fetchPublications() {
 
   const res = await fetch("https://blog-assigment-api.vercel.app/api/publications", {
